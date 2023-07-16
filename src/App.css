@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.appHeader{
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.carticon{
+  font-size: 2rem;
+}
+.appFooter{
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+.pageContent{
+  display: flex;
+  flex: 1 ;
+  overflow-y: auto;
+}
+.itemCardImage{
+  height: 150px !important;
+  object-fit: scale-down;
+}
+.cardspace,.itemCardBadge{
+  margin: 8px;
+  /* background-color: aliceblue; */
+}
